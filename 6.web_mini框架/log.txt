@@ -1,0 +1,17 @@
+2019-08-05 15:28:08,856 - .log日志的基本格式.py[line:10] - WARNING: 这是 loggging a warning message
+2019-08-05 15:28:08,857 - .log日志的基本格式.py[line:11] - ERROR: 这是 an loggging error message
+2019-08-05 15:28:08,857 - .log日志的基本格式.py[line:12] - CRITICAL: 这是 loggging critical message
+2019-08-05 15:28:10,367 - .log日志的基本格式.py[line:10] - WARNING: 这是 loggging a warning message
+2019-08-05 15:28:10,367 - .log日志的基本格式.py[line:11] - ERROR: 这是 an loggging error message
+2019-08-05 15:28:10,367 - .log日志的基本格式.py[line:12] - CRITICAL: 这是 loggging critical message
+2019-08-05 15:28:11,632 - .log日志的基本格式.py[line:10] - WARNING: 这是 loggging a warning message
+2019-08-05 15:28:11,632 - .log日志的基本格式.py[line:11] - ERROR: 这是 an loggging error message
+2019-08-05 15:28:11,633 - .log日志的基本格式.py[line:12] - CRITICAL: 这是 loggging critical message
+2019-08-05 15:45:09,816 - 2.log_2日志.py[line:27] - INFO: 这是 logger info message
+2019-08-05 15:45:09,816 - 2.log_2日志.py[line:28] - WARNING: 这是 logger warning message
+2019-08-05 15:45:09,817 - 2.log_2日志.py[line:29] - ERROR: 这是 logger error message
+2019-08-05 15:45:09,817 - 2.log_2日志.py[line:30] - CRITICAL: 这是 logger critical message
+2019-08-05 15:45:15,975 - 2.log_2日志.py[line:27] - INFO: 这是 logger info message
+2019-08-05 15:45:15,976 - 2.log_2日志.py[line:28] - WARNING: 这是 logger warning message
+2019-08-05 15:45:15,976 - 2.log_2日志.py[line:29] - ERROR: 这是 logger error message
+2019-08-05 15:45:15,976 - 2.log_2日志.py[line:30] - CRITICAL: 这是 logger critical message

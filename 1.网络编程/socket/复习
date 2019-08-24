@@ -1,0 +1,9 @@
+1.创建套接字
+udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+localladdr = ("",port)
+udp_socket.bind(localladdr)
+2.使用套接字收发数据
+udp_socket.sendto("MESSAGE".encode("utf-8", ("IP", port)))
+udp_socket.recvfrom(1024)
+3.关闭套接字
+udp_socket.close()x

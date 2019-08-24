@@ -1,0 +1,20 @@
+div{
+    font-size: 20px;
+    color: green;
+    font-family: serif;
+    /* font-style: italic */
+    line-height: 50px;
+    text-indent: 24px;
+    /* text-align: center; */
+    text-decoration: red
+    }
+
+em{font-style: normal;} 
+
+span{
+    font-size: 30px;
+}
+
+h1{
+    font-weight: normal
+}

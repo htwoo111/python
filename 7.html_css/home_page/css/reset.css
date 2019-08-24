@@ -1,0 +1,56 @@
+/* 默认边框设为0 */
+body,h1,h2,h3,h4,h5,h6,form,p,ul,dl,dt,form,input{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* 去除列表前的小圆点 */
+ul{
+    list-style: none;
+}
+
+/* 去除IE浏览器下image的边框 */
+image{
+    border: 0px;
+}
+
+/* 去除a标签的下划线 */
+a{
+    text-decoration: none;
+    
+}
+
+/* 去除em标签斜体 */
+em{
+    font-style: normal;
+}
+
+/* 让h标签继承body标签的字体大小 */
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%;
+}
+
+/* 消除浮动，解决margin-top塌陷 */
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+.clearfix{
+    zoom: 1;
+}
+
+/* 设置浮动 */
+.fl{
+    float: left;
+}
+
+
+.fr{
+    float: right;
+}

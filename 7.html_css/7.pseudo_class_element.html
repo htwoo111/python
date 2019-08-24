@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>伪类和伪元素</title>
+    <style>
+        .pseudo{
+            font-size: 20px;
+            text-decoration: underline;
+            color: green;
+            text-indent: 40px
+            
+        }
+        /* 伪类 */
+        .pseudo:hover{
+            font-size: 20px;
+            text-decoration: none;
+            color: yellow;
+            font-style: italic
+        }
+        
+        .pseudo_element{
+            font-size: 50px;
+            color: blueviolet
+        }
+        /* 伪元素 */
+        .pseudo_element:before{
+            content: "在前面加东西，而且网页无法选中"
+        }
+        .pseudo_element:after{
+            content: "。"
+                    }
+        
+    </style>
+
+</head>
+<body>
+    <p class="pseudo">open bing</p>
+    
+    <a href="http://www.bing.com" title="bing" class="pseudo">必应</a>
+
+    <br>
+    <hr>
+    <div class="pseudo_element">This is div</div>
+
+</body>
+</html>

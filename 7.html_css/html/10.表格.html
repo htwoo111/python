@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TABLE</h1>
+    <!-- 创建一张表格 -->
+    <!-- <table border="1" width="宽" height="高" align="center/left/right"> 水平对齐方式 -->
+    <table border="1" width="300" height="200" align="center">
+
+        <!-- 表头 -->
+        <tr>
+            <th>一</th>
+            <th>二</th>
+            <th>三</th>
+
+        </tr>
+        <!-- tr 创建一行 -->
+        <tr>
+            <!-- td 增加一个格子 -->
+            <td align="center">1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <!-- td 增加一个格子 -->
+            <!-- <td valign="top/middle/bottom" 垂直对齐方式>1</td> -->
+            <td valign="top">1</td>
+            <td valign="middle" align="center">2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <!-- td 增加一个格子 -->
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+
+    </table>
+
+
+    <hr>
+
+
+    <!-- table>(tr>td*5)*6 -->
+    <table border="1" width="700" height="300" align="center">
+        <tr>
+            <td colspan="5">基本情况</td>
+        </tr>
+        <tr>
+            <td width="15%"></td>
+            <td width="25%"></td>
+            <td width="15%"></td>
+            <td width="25%"></td>
+            <td rowspan="5" width="20%"><img src="./images/person.png" alt="person"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td> 
+        </tr>
+    </table>
+    
+</body>
+</html>
