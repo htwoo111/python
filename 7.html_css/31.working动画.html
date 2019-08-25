@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @keyframes working {
+            from {
+                left: 0px;
+            }
+
+            to {
+                left: -960px;
+            }
+        }
+
+        .box {
+            width: 120px;
+            height: 180px;
+            overflow: hidden;
+            position: relative;
+            border: 1px solid #000000;
+            margin: 50px auto 0;
+        }
+        
+        .box img{
+            position: absolute;
+            left: 0;
+            top: 0;
+            animation: working 0.4s steps(8) infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="./images/walking.png" alt="working">
+    </div>
+</body>
+
+</html>

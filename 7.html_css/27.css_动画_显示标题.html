@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .pic_con{
+            width: 200px;
+            height: 300px;
+            margin: 50px auto 0px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .pic_con:hover .pic_info{
+            top: 180px;
+        }
+        
+        .pic_info{
+            position: absolute;
+            left: 0;
+            top: 300px;
+            width: 200px;
+            height: 120px;
+            background-color: rgba(0, 0, 0, 0.3);
+            text-align: center;
+            color: #ffffff;
+            /* padding:  */
+            transition: all 1s ease;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="pic_con">
+        <img src="home_page/images/banner01.jpg" alt="banner01">
+        <div class="pic_info">
+            <h3>文字说明</h3>
+            <p>this is a paragraph <br>
+                this is a paragraph <br>
+                this is a paragraph</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>

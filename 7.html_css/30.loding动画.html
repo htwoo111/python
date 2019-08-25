@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @keyframes loding{
+            from{
+                /* height: 100px; */
+                transform: scale(1,1)
+            }
+            to{
+                /* height: 30px; */
+                transform: scale(1,0.3)
+            }
+        }
+
+        .container{
+            width: 300px;
+            height: 158px;
+            border: 1px solid #000000;
+            margin: 150px auto 0;
+        }
+
+        .container div{
+            width: 30px;
+            height: 100px;
+            float: left;
+            margin: 15px;
+            border-radius: 15px;
+            background-color: gold;
+            animation: loding 500ms  linear infinite alternate;
+        }
+
+        .container div:nth-child(1){
+            background-color: red;
+            animation-delay: 50ms
+        }
+        .container div:nth-child(2){
+            background-color: yellow;
+            animation-delay: 100ms
+        }
+        .container div:nth-child(3){
+            background-color: green;
+            animation-delay: 150ms
+        }
+        .container div:nth-child(4){
+            background-color: blue;
+            animation-delay: 200ms
+        }
+        .container div:nth-child(5){
+            background-color: purple;
+            animation-delay: 250ms
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <p>loding...</p>
+    </div>
+    
+</body>
+</html>

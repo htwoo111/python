@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: gold;
+
+            /* transition-property: width;
+            transition-duration: 0s;
+            transition-delay: 1s;
+            transition-timing-function: ease; */
+            /* 1、transition-property 设置过渡的属性，比如：width height background-color
+            2、transition-duration 设置过渡的时间，比如：1s 500ms
+            3、transition-timing-function 设置过渡的运动方式，常用有 linear(匀速)|ease(缓冲运动)
+            4、transition-delay 设置动画的延迟
+            5、transition: property duration timing-function delay 同时设置四个属性 */
+
+            transition: width 1s ease 1s ,height 1s ease ;
+            transition: all 1s ease 1s;
+        }
+
+        .box:hover {
+            width: 500px;
+            height: 600px;
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>
