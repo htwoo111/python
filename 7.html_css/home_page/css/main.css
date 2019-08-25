@@ -234,14 +234,14 @@ body {
 }
 
 
-.slide_con{
+.slide_con {
     position: relative;
     width: 760px;
     height: 270px;
     overflow: hidden;
 }
 
-.slide_con .slide{
+.slide_con .slide {
     position: absolute;
     top: 0;
     left: 0;
@@ -249,33 +249,34 @@ body {
     height: 270px;
 }
 
-.slide li{
+.slide li {
     float: left;
 }
 
-.prev, .next{
+.prev,
+.next {
     position: absolute;
     width: 15px;
     height: 24px;
-    
+
     background: url(../images/icons.png) 0 -450px no-repeat;
     top: 0;
     left: 0;
     cursor: pointer;
 }
 
-.prev{
+.prev {
     left: 11px;
     top: 122px;
 }
 
-.next{
+.next {
     background: url(../images/icons.png) 0 -500px no-repeat;
     left: 732px;
     top: 122px;
 }
 
-.points{
+.points {
     position: absolute;
     bottom: 9px;
     width: 100%;
@@ -284,7 +285,7 @@ body {
     text-align: center;
 }
 
-.points li{
+.points li {
     display: inline-block;
     width: 11px;
     height: 11px;
@@ -294,8 +295,8 @@ body {
     cursor: pointer;
 }
 
-.points .active{
-    background-color: #cecece; 
+.points .active {
+    background-color: #cecece;
 }
 
 
@@ -305,7 +306,7 @@ body {
     background-color: aqua;
 }
 
-.advs img{
+.advs img {
     display: block;
 }
 
@@ -313,3 +314,115 @@ body {
 
 /* 商品栏 */
 
+.common_model {
+    width: 1200px;
+    height: 337px;
+    margin: 20px auto;
+}
+
+.common_title_con{
+    height: 35px;
+    border-bottom: 2px solid #42ad46;
+}
+
+.common_title_con h3{
+    color: #37ab40;
+    font: bold 16px/35px "Microsoft YaHei"
+}
+
+.common_title_con ul{
+    float: left;
+    height: 12px;
+    border-left: 1px solid #666666;
+    margin:12px 0 0  20px;
+}
+
+.common_title_con ul li{
+    /* height: 35px; */
+    float: left;
+    line-height: 12px;
+}
+
+.common_title_con ul li a{
+    display: block;
+    height: 20px;
+    font: normal 12px/12px "Microsoft YaHei";
+    margin-left: 15px;
+    color: #666666;
+}
+
+.common_title_con .more{
+    float: right;
+    font: normal 12px/35px "Microsoft YaHei";
+    color: #666666;
+    margin-right: 15px;
+}
+
+.common_title_con a:hover{
+    color: #ff8800;
+}
+
+.goods_banner {width: 200px;
+height: 300px;}
+
+.goods_list{
+    width: 1000px;
+    height: 300px;
+}
+
+.goods_list li{
+    float: left;
+    width: 249px;
+    height: 299px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    /* font: normal 14px "Microsoft YaHei" */
+}
+
+.goods_list li h4{
+    font: normal 14px/50px "Microsoft YaHei";
+    color: #666666;
+}
+.goods_list li a{
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+.goods_list li div{
+    font: bold 20px/50px "Microsoft YaHei";
+    color: #c40000;
+    margin-top: 20px;
+}
+
+/* 脚注 */
+.footer{
+    height: 118px;
+    margin: 30px 0 40px;
+    border-top: 2px solid #4ab14e;
+    text-align: center;
+}
+
+.footer_link{
+    margin-top: 38px;
+}
+
+.footer_link span{
+    color: #4e4e4e;
+    font-size: 12px;
+    padding: 10px;
+}
+.footer_link a{
+    color: #4e4e4e;
+    font-size: 12px;
+}
+
+.footer_link a:hover{
+    color: #ff8800;
+}
+
+.footer p{
+    margin-top: 14px;
+    font-size: 12px;
+}
