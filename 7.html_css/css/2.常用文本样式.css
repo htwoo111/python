@@ -6,7 +6,8 @@ div{
     line-height: 50px;
     text-indent: 24px;
     /* text-align: center; */
-    text-decoration: red
+    -webkit-text-decoration: red;
+            text-decoration: red
     }
 
 em{font-style: normal;} 
