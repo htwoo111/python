@@ -4,7 +4,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    /* background-color: yellow; */
+    background-color: yellow;
 }
 
 /* ------------------------------------ */
@@ -148,7 +148,6 @@
     height: 17.25rem;
     background-color: white;
     margin-top: .5rem;
-    margin-bottom: .5rem;
     
 }
 
@@ -184,113 +183,9 @@
     width: 17.75rem;
 }
 
-.goods_list{
-    width: 17.75rem;
-    height: 9.325rem;
-    /* background-color: gold; */
-    margin: .5rem auto 0;
-}
-
-.goods_list li{
-    float: left;
-    width: 5.9rem;
-    height: 9.329rem;
-    border-right: 1px solid #e7e7e7;
-    box-sizing: border-box;
-    position: relative;
-}
-
-.goods_list li:last-child{
-    border-right: 0;
-}
-
-.goods_list li a{
-    width: 4.5rem;    
-    height: 4.5rem;
-    display: block;
-    margin: .375rem auto 0;
-    text-align: center;
-}
-
-.goods_list img{
-    width: 100%;
-}
-
-.goods_list h4{
-    font: normal 15px/15px "Microsoft YaHei";
-    width: 5rem;
-    margin: .925rem auto 0;
-
-}
-
-.goods_list .unit{
-    width: 5.0rem;
-    font: normal 12px/12px 'Microsoft Yahei';
-    color: #bbb;
-    margin: 0.8rem auto 0;
-}
-
-.goods_list .price{
-    width: 5rem;
-    font:normal 12px/12px "Microsoft YaHei";
-    color: #ff4400;
-    margin: .5rem auto 0;
-}
-
-.goods_list .add_to_cart{
-    width: 1.7rem;
-    height: 1.7rem;
-    /* background-color: gold; */
-    position: absolute;
-    bottom: 0;
-    right: 0.675rem;
-    background: url(../images/icons.png) left -27rem no-repeat;
-    background-size: 3rem 42rem;
-}
-
-/* ---------------------------------------- */
-/* footer */
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
-    overflow: hidden;
-}
-
-.footer ul{
-    width: 100%;
-    height: 2.5rem;
-}
-
-.footer ul li{
-    float: left;
-    width: 25%;
-    height: 2.5rem;
-    text-align: center;
-}
-
-.footer li a{
-    display: block;
-    width: 1.3rem;
-    height: 1.3rem;
-    margin: .35rem auto 0;
-    background-color: gold;
-    background: url(../images/icons.png) left -30rem no-repeat;
-    background-size: 3rem 42rem;
-}
-
-.footer li:nth-child(2) a{
-background-position: left -33rem;
-}
-.footer li:nth-child(3) a{
-    background-position: left -36rem;
-}
-.footer li:nth-child(4) a{
-    background-position: left -39rem;
-}
-
-.footer h2{
-    font: normal 12px/.8rem "Microsoft YaHei";
-    color: #949392;
 }
