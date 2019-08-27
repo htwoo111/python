@@ -1,28 +1,191 @@
-.header{
-    height: 50px;
+.main_wrap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: yellow;
+}
+
+/* ------------------------------------ */
+/* header */
+.header {
+    height: 2.5rem;
     background-color: #37ab40;
     position: relative;
 }
 
-.logo{
+.logo {
     display: block;
-    width: 89px;
-    height: 36px;
-    margin: 7px auto 0px;
+    width: 4.45rem;
+    height: 1.775rem;
+    margin: .35rem auto 0;
 
 }
 
-.logo img{
+.logo img {
     width: 100%;
 }
 
-.search{
+.search {
     position: absolute;
-    right: 15px;
-    top: 12px;
+    right: .75rem;
+    top: .6rem;
     /* background-color: yellow; */
-    width: 27px;
-    height: 27px;
+    width: 1.35rem;
+    height: 1.35rem;
     background: url(../images/icons.png) left top no-repeat;
-    background-size: 60px 840px;
+    background-size: 3rem 42rem;
+}
+
+/* -------------------------------------------- */
+.center_con {
+    position: absolute;
+    width: 100%;
+    /* height: 2.5rem; */
+    top: 2.5rem;
+    bottom: 2.5rem;
+    background-color: #efefef;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.slide {
+    height: 7rem;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.menu_con {
+    height: 9.25rem;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: .5rem;
+}
+
+
+.menu {
+    width: 18rem;
+    height: 8.375rem;
+    margin: .875rem 0 0 1.375rem;
+    /* margin-top: .5rem; */
+}
+
+.menu li {
+    width: 2.8rem;
+    height: 4.05rem;
+    float: left;
+    margin-right: 1.665rem;
+    text-align: center;
+}
+
+.menu li a {
+    display: block;
+    height: 2.8rem;
+    background: url(../images/icons.png) left -3rem no-repeat;
+    background-size: 3rem 42rem;
+}
+
+.menu li:nth-child(2) a {
+    display: block;
+    height: 2.8rem;
+    background: url(../images/icons.png) left -6rem no-repeat;
+    background-size: 3rem 42rem;
+}
+
+.menu li:nth-child(3) a {
+    display: block;
+    height: 2.8rem;
+    background: url(../images/icons.png) left -9rem no-repeat;
+    background-size: 3rem 42rem;
+}
+
+.menu li:nth-child(4) a {
+    display: block;
+    height: 2.8rem;
+    background: url(../images/icons.png) left -12rem no-repeat;
+    background-size: 3rem 42rem;
+}
+
+.menu li:nth-child(5) a {
+    display: block;
+    height: 2.8rem;
+    background: url(../images/icons.png) left -15rem no-repeat;
+    background-size: 3rem 42rem;
+}
+
+.menu li:nth-child(6) a {
+    display: block;
+    height: 2.8rem;
+    background: url(../images/icons.png) left -18rem no-repeat;
+    background-size: 3rem 42rem;
+}
+
+.menu li:nth-child(7) a {
+    display: block;
+    height: 2.8rem;
+    background: url(../images/icons.png) left -21rem no-repeat;
+    background-size: 3rem 42rem;
+}
+
+.menu li:nth-child(8) a {
+    display: block;
+    height: 2.8rem;
+    background: url(../images/icons.png) left -24rem no-repeat;
+    background-size: 3rem 42rem;
+}
+
+.menu li h2{
+    font:bold 13px/1.25rem "Microsoft YaHei";
+    color: #666666;
+}
+
+/* ------------------------------------------------- */
+/* common_model */
+.common_model{
+    height: 17.25rem;
+    background-color: white;
+    margin-top: .5rem;
+    
+}
+
+.common_title{
+    /* float: left; */
+    width: 17.75rem;
+    margin: .8rem auto 0;
+    height: .9rem;
+    /* background-color: #37ab40; */
+
+}
+
+.common_title h3{
+    float: left;
+    font: bold 15px/.9rem "Microsoft YaHei";
+    border-left: 0.25rem solid #fbc83d;
+    color: #fbc83d;
+    text-indent: 0.4rem;
+}
+
+.common_title a{
+    float: right;
+    font: normal 15px/0.9rem "Microsoft YaHei";
+}
+
+.common_model .banner{
+    display: block;
+    width: 17.75rem;
+    margin: .5rem auto 0;
+}
+
+.common_model .banner img{
+    width: 17.75rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
 }
